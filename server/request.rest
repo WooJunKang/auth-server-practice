@@ -1,0 +1,4 @@
+### this is test file for request API
+### if you want to use this, please download "REST Client" in VS Code Extensions
+
+GET http://localhost:3001/contents

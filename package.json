@@ -1,0 +1,25 @@
+{
+  "name": "auth-server-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client-start": "cd ./client && npm run start",
+    "server-start": "cd ./server && npm run start",
+    "client-install": "cd client && npm install",
+    "server-install": "cd server && npm install",
+    "install-all": "concurrently \"npm run server-install\" \"npm run client-install\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WooJunKang/auth-server-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WooJunKang/auth-server-practice/issues"
+  },
+  "homepage": "https://github.com/WooJunKang/auth-server-practice#readme"
+}
